@@ -266,7 +266,7 @@ NO* removerArvore(NO* no, int valor) {
         no->esq = removerArvore(no->esq, valor);
     }
     else if (valor > no->valor) {
-        no->dir = removerArvore(no->dir, valor);
+        no->dir = removerArvore(no->dir, valor); 
     }
     else {
         if (no->esq == NULL && no->dir == NULL) {
