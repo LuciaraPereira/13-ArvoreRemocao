@@ -362,6 +362,7 @@ void buscarElementoArvore(NO* no, int valor) {
         return;
     }
 
+
     if (valor < no->valor)
         buscarElementoArvore(no->esq, valor);
     else
